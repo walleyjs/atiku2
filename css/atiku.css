@@ -1,0 +1,130 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+#body{
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url("../images/atiku.png");
+	height:630px;
+	width: 100%;
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+.downloadbtn{
+	padding-right: 170px;
+	padding-top: 30px;
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+
+}
+.btn{
+	width: 130px;
+	height: 30px;
+	background-color: white;
+	border: none;
+	color: #205a20;
+	cursor: pointer;
+
+}
+#content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height:630px;
+	width: 100%;
+	
+}
+#img{
+
+}
+#main-cont{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	width: 270px;
+	height: 300px;
+	border-radius: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#inputs{
+	display: flex;
+	flex-direction: column;
+	padding-top: 15px;
+}
+.input{
+margin-top: 15px;
+}
+.input1{
+	height: 20px;
+	width: 250px;
+	padding-left: 10px;
+}
+
+.input4{
+	justify-content: flex-end;
+	margin-left: 30px;
+	cursor: pointer;
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	color: white;
+	background-color: #205a20;
+	border: none;
+}
+ #inputs a{
+	text-decoration: none;
+	padding-top: 30px;
+	color: black;
+}
+#footer{
+	 background-color: black;
+	height: 60px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.footer{
+	display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    padding-top: 20px;
+    color: white;
+}
+.foot{
+	list-style: none;
+	padding-right: 10px;
+	
+}
+a .foot{
+	color: white;
+	text-decoration: none;
+}
+.foot1{
+	margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    #body{
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url("../images/atiku.png");
+	height:630px;
+	width: 100%;
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+#inputs{
+	display: flex;
+	flex-direction: column;
+	padding-top: 15px;
+	width: 100%;
+}
+}
